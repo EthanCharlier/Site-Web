@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins';
+    background: rgba(88, 214, 141, 0.1);
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 0, 0);
+    background-size: cover;
+}
+
+.icon {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+}
+
+.navbar {
+    position: relative;
+    padding: 10px 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 2em;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 25px;
+}
+
+.navbar .nav-links ul li.active a {
+    color: #58D68D;
+    font-weight: 600;
+}
+
+.navbar .nav-links ul li a:hover {
+    color: #58D68D;
+}
+
+section .first{
+    position: relative;
+    background-color: #58D68D;
+    height: 5px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.container {
+    margin: 18vh;
+    text-align: center;
+}
+
+.icon2 {
+    width: 256px;
+    height: 256px;
+}
+
+footer {
+    position: absolute;
+    margin: 0 auto;
+    width: 100vw;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 700;
+    color: #F2685C;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 700;
+    color: #F2685C;
+    text-align: center;
+    font-size: 1em;
+}
